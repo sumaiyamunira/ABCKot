@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_gravity="center"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="1"
+        android:layout_margin="5dp"
+        android:layout_gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="0.5"
+            android:text="A"
+            android:id="@+id/txtA"
+            android:textColor="@color/black"
+            android:background="#aa454534"
+            android:layout_margin="2dp"
+            android:gravity="center"
+            android:textSize="42sp"
+            android:layout_height="150dp" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="0.5"
+            android:text="B"
+            android:id="@+id/txt_b"
+            android:background="#aa459934"
+            android:textColor="@color/black"
+            android:layout_margin="2dp"
+            android:gravity="center"
+            android:textSize="42sp"
+            android:layout_height="150dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="1"
+        android:layout_margin="5dp"
+        android:layout_gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:id="@+id/txt_c"
+            android:layout_weight="0.5"
+            android:text="C"
+            android:background="#aaFF4534"
+            android:textColor="@color/black"
+            android:layout_margin="2dp"
+            android:gravity="center"
+            android:textSize="42sp"
+            android:layout_height="150dp" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="0.5"
+            android:text="D"
+            android:id="@+id/txt_d"
+            android:background="#aa4599FF"
+            android:textColor="@color/black"
+            android:layout_margin="2dp"
+            android:gravity="center"
+            android:textSize="42sp"
+            android:layout_height="150dp" />
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>
